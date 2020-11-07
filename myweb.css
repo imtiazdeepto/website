@@ -1,0 +1,136 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:verdana;
+}
+header{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(myweb.jpeg);
+	height:100vh;
+	background-size: cover;
+	background-position:center;
+}
+ul{
+	float:left;
+	list-style-type:none;
+	margin-top:20px;
+	
+}
+ul li{display:inline-block;
+	}
+.menu a{
+	position:reletive;
+	text-decoration:none;
+	color:white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.5s ease;
+}
+ 
+.menu a:hover{
+	background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+	color:black;
+	font-size:25px;
+	border-color:blue;
+	border-radius:10px;
+}
+#act a{
+	color:black;
+	background:#AFEEEE;
+	border:1px dotted black;
+	display:inline-block;
+}
+.logo img {
+	float:right;
+	width:150px;
+	height:100px;
+	 
+}
+.main{
+	margin-right:50px;
+	max-width:1200px;
+}
+.title{
+	position:absolute;
+	top:40%;
+	left:18%;
+	transfrom:translate(-50%,-50%);	
+}
+.title h1{
+	color:#fff;
+	font-size:64px;
+}
+
+.title2{
+	position:absolute;
+	bottom:110px;
+	right:180px;
+	transfrom:translate(-50%,-50%);
+	}
+.title2 h3{
+	color:#fff;
+	font-size:35px;
+	 display:inline-block;
+	}
+.button{
+	position:absolute;
+	top:130%;
+	left:25%;
+	transfrom:translate(-50%,-50%);	
+}
+.btn:hover{
+	background:#FAEBD7;
+	font-size:25px;
+	border-color:blue;
+	font-family:arial black;
+	
+}
+.btn{
+	border: 1px solid #fff;
+	border-radius:15px;
+	padding:10px 30px;
+	text-decoration:none;
+	color:#fff;
+	transition:0.6s ease;
+	position:reletive;
+}
+.submenu{
+	text-transform:uppercase;
+	display:none;
+	position:absolute;
+	width:100px;
+	
+}
+#bt1:hover{background-color:red;color:white;}
+#bt2:hover{color:blue;}
+#bt3:hover{color:black;}
+.menu:hover .submenu{
+	display:block;
+} 
+.signup{
+	top:25px;
+	right:45px;
+	position:absolute;
+	text-decoration:none;
+	border:2px solid #fff;
+	border-radius:20px;
+	display:block;
+	padding:8px 22px;
+	transfrom:translate(-50%,-50%);	
+	background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+}
+.signup:hover{
+	background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+	font-size:20px;
+	transition:0.3s ease;
+ }
+.icon{
+	right:72px;
+	bottom:35px;
+	position:absolute;
+
+	
+	
+	
+	
+}
